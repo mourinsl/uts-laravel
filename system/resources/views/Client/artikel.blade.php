@@ -106,7 +106,7 @@
                   @foreach($postingan->komentar()->orderBy('created_at','desc')->get() as $komentar)
               <div id="comment-1" class="comment">
                 <div class="d-flex">
-                  <div class="comment-img"><img src="{{url('public')}}/Client/assets/img/blog/comments-1.jpg" alt=""></div>
+                  <div class="comment-img"><img src="{{url('public')}}/Client/assets/img/blog/pp.png" alt=""></div>
                   <div>
                     <h5><a href="">{{$komentar->nama_komentar}}</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a></h5>
                     <time datetime="2020-01-01">{{$komentar->created_at->diffForHumans()}}</time>
