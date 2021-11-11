@@ -72,7 +72,7 @@
               @foreach($list_postingan as $postingan)
             <article class="entry">
               <h2 class="entry-title">
-                <a href="{{url('artikel')}}">{{$postingan->judul}}</a>
+                <a href="{{url('artikel, $postingan->id')}}">{{$postingan->judul}}</a>
               </h2>
 
               <div class="entry-meta mb-2">
