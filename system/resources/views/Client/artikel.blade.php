@@ -101,7 +101,7 @@
               </div>
 
             </article><!-- End blog entry -->
-            <div class="blog-comments">\
+            <div class="blog-comments">
               <h4 class="comments-count">Komentar</h4>
                   @foreach($postingan->komentar()->orderBy('created_at','desc')->get() as $komentar)
               <div id="comment-1" class="comment">
